@@ -4,26 +4,26 @@
     "type": "bot"
   },
   "data": {
-    "speed": 0.004900038242340088,
-    "groupCh": 4,
-    "groupJoin": 4,
-    "groupLeft": 4,
+    "speed": 0.003899991512298584,
+    "groupCh": 3,
+    "groupJoin": 3,
+    "groupLeft": 3,
     "personal": 1,
-    "chat": 5,
+    "chat": 4,
     "ramTTL": 8469413888,
-    "ramFree": 2229796864,
-    "ramUsage": 6239617024,
-    "nodeUse": "rss         : 143.46 MB\nheapTotal   : 69.55 MB\nheapUsed    : 65.36 MB\nexternal    : 40.93 MB\narrayBuffers: 24.32 MB",
+    "ramFree": 3894452224,
+    "ramUsage": 4574961664,
+    "nodeUse": "rss         : 126.95 MB\nheapTotal   : 65.11 MB\nheapUsed    : 61.48 MB\nexternal    : 40.9 MB\narrayBuffers: 24.29 MB",
     "cpuModel": "Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz",
     "cpuSpeed": 2494,
     "cpuTimes": {
-      "user": 69239154,
+      "user": 69558842,
       "nice": 0,
-      "sys": 21816029,
-      "idle": 604753999,
-      "irq": 1213482
+      "sys": 22006013,
+      "idle": 609985076,
+      "irq": 1220623
     },
-    "cpuTotal": 697022664,
+    "cpuTotal": 702770554,
     "arch": "x64",
     "homeDir": "C:\\Users\\syeif",
     "hostName": "Lenovo-X250",
@@ -68,7 +68,7 @@
       ]
     },
     "platform": "win32",
-    "upTime": 379101,
+    "upTime": 380536,
     "machine": "x86_64"
   }
 }
