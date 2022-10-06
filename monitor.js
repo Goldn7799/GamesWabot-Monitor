@@ -12,6 +12,8 @@ let format = sizeFormatter({
   render: (literal, symbol) => `${literal} ${symbol}B`,
 })
 let handler = async (m, { conn }) => {
+  m.reply('Started at 9090')
+  setInterval(async () => {
   const chats = Object.entries(Connection.store.chats).filter(([id, data]) => id && data.isChats)
   const groupsIn = chats.filter(([id]) => id.endsWith('@g.us')) //groups.filter(v => !v.read_only)
   const used = process.memoryUsage()
@@ -39,14 +41,13 @@ let handler = async (m, { conn }) => {
       irq: 0
     }
   })
-  let message = m.reply('Starting..')
+  // let message = m.reply('Starting..')
   let old = performance.now()
-  await message
+  // await message
   let neww = performance.now()
   let speed = neww - old
   let nodeUse = '' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + ''
-  m.reply('Succesfully Start Monitor At port 9090')
-  setInterval(async () => {
+  // m.reply('Succesfully Start Monitor At port 9090')
     let raw = await fetch('http://localhost:9090/data/', {
       method: "POST",
       body: JSON.stringify({
