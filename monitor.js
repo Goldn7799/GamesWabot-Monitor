@@ -75,7 +75,7 @@ let handler = async (m, { conn }) => {
       }),
       headers: {"Content-type": "application/json; charset=UTF-8"}
     })
-  }, 2500);
+  }, 3000);
 }
 
 handler.help = ['mnt', 'monitor']
