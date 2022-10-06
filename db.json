@@ -1,0 +1,74 @@
+{
+  "db": {
+    "pw": "1234",
+    "type": "bot"
+  },
+  "data": {
+    "speed": 273.75519996881485,
+    "groupCh": 2,
+    "groupJoin": 2,
+    "groupLeft": 2,
+    "personal": 1,
+    "chat": 3,
+    "ramTTL": 8469413888,
+    "ramFree": 1571500032,
+    "ramUsage": 6897913856,
+    "nodeUse": "rss         : 169.71 MB\nheapTotal   : 106.8 MB\nheapUsed    : 62.61 MB\nexternal    : 40.52 MB\narrayBuffers: 23.9 MB",
+    "cpuModel": "Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz",
+    "cpuSpeed": 2494,
+    "cpuTimes": {
+      "user": 64650419,
+      "nice": 0,
+      "sys": 19861623,
+      "idle": 585637638,
+      "irq": 1127123
+    },
+    "cpuTotal": 671276803,
+    "arch": "x64",
+    "homeDir": "C:\\Users\\syeif",
+    "hostName": "Lenovo-X250",
+    "network": {
+      "Wi-Fi": [
+        {
+          "address": "fe80::19fb:13a8:94d3:da22",
+          "netmask": "ffff:ffff:ffff:ffff::",
+          "family": "IPv6",
+          "mac": "4c:34:88:9e:a0:52",
+          "internal": false,
+          "cidr": "fe80::19fb:13a8:94d3:da22/64",
+          "scopeid": 14
+        },
+        {
+          "address": "192.168.100.13",
+          "netmask": "255.255.255.0",
+          "family": "IPv4",
+          "mac": "4c:34:88:9e:a0:52",
+          "internal": false,
+          "cidr": "192.168.100.13/24"
+        }
+      ],
+      "Loopback Pseudo-Interface 1": [
+        {
+          "address": "::1",
+          "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+          "family": "IPv6",
+          "mac": "00:00:00:00:00:00",
+          "internal": true,
+          "cidr": "::1/128",
+          "scopeid": 0
+        },
+        {
+          "address": "127.0.0.1",
+          "netmask": "255.0.0.0",
+          "family": "IPv4",
+          "mac": "00:00:00:00:00:00",
+          "internal": true,
+          "cidr": "127.0.0.1/8"
+        }
+      ]
+    },
+    "platform": "win32",
+    "upTime": 374272,
+    "machine": "x86_64"
+  }
+}
